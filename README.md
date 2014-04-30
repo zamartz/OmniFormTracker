@@ -12,6 +12,11 @@ Omniture Form Tracker JavaScript - Tracks all form processes on a page and creat
 * Report on Errors Corrected. Changes "error" to the class that signifies an error on a form element. 
 
    `var errorflagclass = "error";`
+   
+* Reports with either form element 'id" or "name" in patch. Reports with the form "id" first and the "name" as fallback. If there is no "id" or "name" defined for the form element "No ID or NAME" is returned. 
+
+* Edit `/*SEND SPECIFIC PROPS*/ /* s.linkTrackVars = 'prop5,prop6,events'; */ /*SENDS ALL ON PAGE*/ s.linkTrackVars = '';`
+If you set `s.linkTrackVars` all omniture events on page will report. If defined only the narrow scope will be corrolated to the form tracking
 
 ## License
 
