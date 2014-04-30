@@ -5,18 +5,18 @@ Omniture Form Tracker JavaScript - Tracks all form processes on a page and creat
 
 ## Details
 
-* Reports string with Bar "|" separators and identifies error clicks with Asterisk "*"
+* Report String - string is reported with Bar "|" separators and identifies error clicks with Asterisk "*"
 
    `textarea | field | selection | option | checkbox | *checkboxerror` 
 
-* Report on Errors Corrected. Changes "error" to the class that signifies an error on a form element. 
+* Errors Corrected - Changes "error" to the class that signifies an error on a form element. 
 
    `var errorflagclass = "error";`
    
-* Reports with either form element 'id" or "name" in patch. Reports with the form "id" first and the "name" as fallback. If there is no "id" or "name" defined for the form element "No ID or NAME" is returned. 
+* NAME or ID - reports with either form element 'id" or "name" in patch. Reports with the form "id" first and the "name" as fallback. If there is no "id" or "name" defined for the form element "No ID or NAME" is returned. 
 
-* Edit `/*SEND SPECIFIC PROPS*/ /* s.linkTrackVars = 'prop5,prop6,events'; */ /*SENDS ALL ON PAGE*/ s.linkTrackVars = '';`
-If you set `s.linkTrackVars` all omniture events on page will report. If defined only the narrow scope will be corrolated to the form tracking
+* Tracking Correlation - If you set `s.linkTrackVars =""` to be blank, all omniture events on page will report. If defined only the narrow scope will be correlated to the form tracking.
+ `/*SEND SPECIFIC PROPS*/ /* s.linkTrackVars = 'prop5,prop6,events'; `
 
 ## License
 
