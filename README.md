@@ -5,7 +5,7 @@ Omniture Form Tracker JavaScript - Tracks all form processes on a page and creat
 
 ## Details
 
-* Reports string with Bar "|" separators and identifies error clicks with Asterisk
+* Reports string with Bar "|" separators and identifies error clicks with Asterisk "*" \
 
    `textarea | field | selection | option | checkbox | *checkboxerror` 
 
