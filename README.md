@@ -1,7 +1,7 @@
 OmniFormTracker
 ===============
 
-Omniture Form Tracker JavaScript - Tracks all form processes on a page and creates a path. Once page leaves on (Refresh, Navigate, Form Submit) send list to omniture.
+Omniture Form Tracker JavaScript - Tracks all form processes on a page and creates a path. Once page leaves on (Refresh, Navigate, Form Submit) send list to omniture. Tracks with Omnuture s.tl() "o" custome link type.
 
 ## Details
 
