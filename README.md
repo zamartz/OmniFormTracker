@@ -4,11 +4,11 @@ OmniFormTracker
 Omniture Form Tracker JavaScript - Tracks all form processes on a page and creates a path. Once page leaves on (Refresh, Navigate, Form Submit) send list to omniture.
 
 ## Details
+*
+* Reports string with Bar "|" separators and identifies error clicks with Asterisk
+   `textarea | field | selection | option | checkbox | *checkboxerror` \
 
-* Reports string with Bar "|" separators and identifies error clicks with Asterisk "*" 
-   `textarea | field | selection | option | checkbox | *checkboxerror` 
-
-* Report on Errors Corrected. Changes "error" to the class that signifies an error on a form element. `var errorflagclass = "error";`
+* Report on Errors Corrected. Changes "error" to the class that signifies an error on a form element. `var errorflagclass = "error";`
 
 ## License
 
