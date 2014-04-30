@@ -6,7 +6,8 @@ Description: JavaScript Tracks all form processes on a page and creates a path. 
 Author: Zachary A. Martz
 Author URI: http://www.zamartz.com
 Version: 1.0.0
-License: All Rights Reserved &copy; 2014 Zachary A. Martz (ZAMARTZ)
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: omniture, form, field, tracking, analytics
 */
 var formPath;
