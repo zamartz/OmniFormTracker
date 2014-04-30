@@ -3,6 +3,8 @@ OmniFormTracker
 
 Omniture Form Tracker JavaScript - Tracks all form processes on a page and creates a path. Once page leaves on (Refresh, Navigate, Form Submit) send list to omniture. Tracks with Omniture s.tl() "o" custome link type. Adobe SiteCatalyst
 
+If the last reported form action is the completion action (button) then the form has converted. If not you can see where the user trailed off. 
+
 ## Details
 
 * Report String - string is reported with Bar "|" separators and identifies error clicks with Asterisk "*"
