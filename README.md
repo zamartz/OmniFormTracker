@@ -9,6 +9,4 @@ License: GPLv2 or later
 
 License URI: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
 
-## [Wordpress.org Download](http://bt.zamartz.com/1kNFg9f)
-
-## [Donate](http://bt.zamartz.com/RpKg9V)
+## [Donate](http://bt.zamartz.com/1hXxxk2)
