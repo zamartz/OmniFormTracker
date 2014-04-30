@@ -11,7 +11,7 @@ Omniture Form Tracker JavaScript - Tracks all form processes on a page and creat
 
 * Errors Corrected - Changes "error" to the class that signifies an error on a form element. 
 
-   `var errorflagclass = "error";`
+   `var errorflagclass = "error";` If the from uses a class to identify errors when the element is clicked to be corrected it will now repport with an error flag.
    
 * NAME or ID - reports with either form element 'id" or "name" in patch. Reports with the form "id" first and the "name" as fallback. If there is no "id" or "name" defined for the form element "No ID or NAME" is returned. 
 
